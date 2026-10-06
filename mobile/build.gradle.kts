@@ -14,11 +14,11 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.rayjiang.diplay.local"
+        applicationId = "com.shihab.diplay"
         minSdk = 28
         targetSdk = 37
         versionCode = 31
-        versionName = "0.2.12-local"
+        versionName = "0.2.12"
 
     }
 
@@ -39,7 +39,8 @@ android {
 
     buildTypes {
         debug {
-            // Independent package; debug signing cannot update upstream-signed installs.
+            applicationIdSuffix = ".hudtest"
+            versionNameSuffix = "-hud-test"
         }
         release {
             optimization {

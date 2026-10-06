@@ -1,6 +1,6 @@
 # DiPlay
 
-This fork builds **0.2.12-local**, with cloud uploads removed and Geely compatibility preserved.
+This fork removes cloud uploads while preserving Geely compatibility and the original package/version configuration.
 See [local-only build and installation notes](docs/LOCAL-ONLY.md).
 
 **CarPlay for compatible BYD Android head units.** Wired and wireless, with the familiar DiAuto interface. Independent app: `com.shihab.diplay`.
